@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="style.css">
+    <title>Artjom Portfolio</title>
+</head>
+
+<body>
+    <!--*=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav">
+            <a href="#" class="nav__logo">Ar<span>t</span>jom</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link nav__link--active">
+                            <!-- <ion-icon class="nav__icon" name="home-outline"></ion-icon> -->
+                            <i class="nav__icon ri-home-line"></i>
+                            <!-- <img src="images/icons/home-outline.svg" class="nav__icon" name="home-outline"></img> -->
+
+                            <span class="nav__name">Home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <!-- <ion-icon class="nav__icon" name="person-outline"></ion-icon> -->
+                            <i class="nav__icon ri-user-line"></i>
+                            <span class="nav__name">About</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <!-- <ion-icon class="nav__icon" name="stats-chart-outline"></ion-icon> -->
+                             <i class="nav__icon ri-bar-chart-line"></i>
+                            <span class="nav__name">Skills</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="nav__icon ri-briefcase-3-line"></i>
+                            <!-- <ion-icon class="nav__icon" name="briefcase-outline"></ion-icon> -->
+                            <span class="nav__name">Portfolio</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contactme" class="nav__link">
+                            <i class="nav__icon ri-mail-line"></i>
+                            <!-- <ion-icon class="nav__icon" name="mail-outline"></ion-icon> -->
+                            <span class="nav__name">Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <button class="dark-mode-btn">
+                <img class="dark-mode-btn__icon" src="images/icons/sunny-outline.svg" alt="Light mode">
+                <img alt="Dark mode" src="images/icons/moon-outline.svg" class="dark-mode-btn__icon"></img>
+            </button>
+
+        </nav>
+    </header>
+
+    <!--*=============== MAIN ===============-->
+    <main>
+        <!--*=============== HOME ===============-->
+        <section class="home" id="home">
+            <div class="container">
+                <div class="home__inner">
+                    <div class="home__text-box">
+                        <h3 class="home__text">Hello🖐️,</h3>
+                        <h2 class="home__subtitle">My name is Ar<span>t</span>jom</h2>
+                        <h1 class="home__title">I'm Junior <span>Frontend Developer</span></h1>
+                    </div>
+                    <div class="home__img-box">
+                        <img src="images/home-3.png" alt="Me">
+                    </div>
+                </div>
+
+                <div class="home__contacts">
+                    <div>
+                        <h3 class="home__contacts-title">Email</h3>
+                        <a href="mailto:artjom.webcode@gmail.com" class="home__contacts-info">artjom.webcode@gmail.com</a>
+                    </div>
+                    <div class="line"></div>
+                    <div>
+                        <h3 class="home__contacts-title">Telegram</h3>
+                        <a href="https://t.me/artjomwebcode" class="home__contacts-info">artjomwebcode</a>
+                    </div>
+                    <div class="line"></div>
+                    <div>
+                        <h3 class="home__contacts-title">Location</h3>
+                        <a target="_blank" href="https://maps.app.goo.gl/VGJ2e21KBKZji7Sm7" class="home__contacts-info">Tallinn, Estonia</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--*=============== ABOUT ===============-->
+        <section class="about" id="about">
+            <div class="container">
+                <h2 class="about__title section-title">About Me</h2>
+                <p class="about__text">Hi! My name is Artjom, and I'm a beginner frontend developer passionate about creating modern and responsive web applications. I'm currently actively learning JavaScript and React, and I'm building my portfolio to showcase what I've learned.
+
+I enjoy turning ideas into interactive interfaces and constantly learning new things. Besides coding, I'm interested in UX/UI design and love working on small pet projects.</p>
+            </div>
+        </section>
+
+        <!--*=============== SKILLS ===============-->
+        <section class="skills" id="skills">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <ul class="skills__list">
+                    <li class="skills__item">
+                        <img class="skills__img" src="./images/skills/html-5.png" alt="">
+                        <span class="skills__text">HTML</span>
+                    </li>
+                    <li class="skills__item">
+                        <img class="skills__img" src="./images/skills/css-3.png" alt="">
+                        <span class="skills__text">CSS</span>
+
+                    </li>
+                    <li class="skills__item">
+                        <img class="skills__img" src="./images/skills/js.png" alt="">
+                        <span class="skills__text">JavaScript</span>
+
+                    </li>
+                    <li class="skills__item">
+                        <img class="skills__img" src="./images/skills/physics.png" alt="">
+                        <span class="skills__text">React</span>
+                    </li>
+                    <li class="skills__item">
+                        <img class="skills__img" src="./images/skills/tailwindcss.png" alt="">
+                        <span class="skills__text">Tailwindcss</span>
+
+                    </li>
+                     <li class="skills__item">
+                        <img class="skills__img" src="./images/skills/figma.png" alt="">
+                        <span class="skills__text">Figma</span>
+
+                    </li>
+                    <li class="skills__item">
+                        <img class="skills__img" src="./images/skills/github.png" alt="">
+                        <span class="skills__text">GitHub</span>
+
+                    </li>
+                     <li class="skills__item">
+                        <img class="skills__img" src="./images/skills/social.png" alt="">
+                        <span class="skills__text">Git</span>
+
+                    </li>
+                     <li class="skills__item">
+                        <img class="skills__img" src="./images/skills/supabase.png" alt="">
+                        <span class="skills__text">Supabase</span>
+
+                    </li>
+                     <li class="skills__item">
+                        <img class="skills__img" src="./images/skills/react-router.png" alt="">
+                        <span class="skills__text">React Router</span>
+                    </li>
+                    <li class="skills__item">
+                        <img class="skills__img" src="./images/skills/redux.png" alt="">
+                        <span class="skills__text">Redux</span>
+                    </li>
+                      <li class="skills__item">
+                        <img class="skills__img" src="./images/skills/tanstack.png" alt="">
+                        <span class="skills__text">Tanstack Router</span>
+                    </li>
+                    <!-- <li class="skills__item">HTML</li>
+                    <li class="skills__item">CSS</li>
+                    <li class="skills__item">JavaScript</li>
+                    <li class="skills__item">Figma</li>
+                    <li class="skills__item">React</li>
+                    <li class="skills__item">React Router</li>
+                    <li class="skills__item">Tailwind CSS</li>
+                    <li class="skills__item">Supabase</li> -->
+                     <!-- <i class="ri-html5-line"></i> -->
+                </ul>
+                <!-- <div class="skills__inner">
+                    <div class="skills__item">
+                        <div class="skills__item-top">
+                            <h4 class="skills__item-name">
+                                <ion-icon name="logo-html5"></ion-icon>
+                                HTML
+                            </h4>
+                            <div class="skills__item-percent html-num">0%</div>
+                        </div>
+                        <div class="skills__item-line">
+                            <div class="html-line"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="skills__item">
+                        <div class="skills__item-top">
+                            <h4 class="skills__item-name">
+                                <ion-icon name="logo-css3"></ion-icon>
+                                CSS
+                            </h4>
+                            <div class="skills__item-percent css-num">0%</div>
+                        </div>
+                        <div class="skills__item-line">
+                            <div class="css-line"></div>
+                        </div>
+                    </div>
+
+                    <div class="skills__item">
+                        <div class="skills__item-top">
+                            <h4 class="skills__item-name">
+                                <ion-icon name="logo-javascript"></ion-icon>
+                                JavaScript
+                            </h4>
+                            <div class="skills__item-percent javascript-num">0%</div>
+                        </div>
+                        <div class="skills__item-line">
+                            <div class="javascript-line"></div>
+                        </div>
+                    </div>
+
+                    <div class="skills__item">
+                        <div class="skills__item-top">
+                            <h4 class="skills__item-name">
+                                <ion-icon name="logo-figma"></ion-icon>
+                                Figma
+                            </h4>
+                            <div class="skills__item-percent figma-num">0%</div>
+                        </div>
+                        <div class="skills__item-line">
+                            <div class="figma-line"></div>
+                        </div>
+                    </div>
+                </div> -->
+        </section>
+
+        <!--*=============== PORTFOLIO ===============-->
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <h2 class="section-title">Portfolio</h2>
+                <div class="portfolion__inner">
+                    
+                    <!-- ! === 1 === -->
+                    <div class="portfolio__item">
+                        <div class="portfolio__img-box">
+                            <img src="images/portfolio/2.png" alt="portfolio-image" class="portfolio__img">
+
+                        </div>
+                         <div class="portfolio__data-box">
+                            <h3 class="portfolio__title">My Favorite Places</h3>
+                            <p class="portfolio__text">A web application that allows users to save their favorite places on a map. Each user can add a name, comment, place type (bar, restaurant, store, etc.), and a rating. The places are displayed on the map with markers and in a list, where users can filter by type.</p>
+                            <div class="portfolio__label-box">
+                                <img class="skills__img-skill" src="./images/skills/html-5.png" alt="">
+                                <img class="skills__img-skill" src="./images/skills/css-3.png" alt="">
+                                <img class="skills__img-skill" src="./images/skills/js.png" alt="">
+                                
+                            </div>
+                            <div class="portfolio__links">
+                                <a target="_blank" href="https://artjom-webcode.github.io/top-places/" class="portfolio__btn portfolio__link-live">Live Demo</a>
+                                <a target="_blank" href="https://github.com/artjom-webcode/top-places" class="portfolio__btn portfolio__link-github">GitHub</a>
+                            </div>
+                        </div> 
+                    </div>
+
+
+                    <!-- ! === 2 === -->
+                    <div class="portfolio__item">
+                        <div class="portfolio__img-box">
+                            <img src="images/portfolio/3.png" alt="portfolio-image" class="portfolio__img">
+
+                        </div>
+                        <div class="portfolio__data-box">
+                            <h3 class="portfolio__title">My Top Movies</h3>
+                            <p class="portfolio__text">A web application that allows users to save their favorite places on a map. Each user can add a name, comment, place type (bar, restaurant, store, etc.), and a rating. The places are displayed on the map with markers and in a list, where users can filter by type.</p>
+                            <div class="portfolio__label-box">
+                                <img class="skills__img-skill" src="./images/skills/physics.png" alt="react">
+                                <img class="skills__img-skill" src="./images/skills/tailwindcss.png" alt="tailwindcss">
+
+                               
+                            </div>
+                            <div class="portfolio__links">
+                                <a target="_blank" href="https://my-top-movies.netlify.app" class="portfolio__btn portfolio__link-live">Live Demo</a>
+                                <a target="_blank" href="https://github.com/artjom-webcode/my-top-movies" class="portfolio__btn portfolio__link-github">GitHub</a>
+                            </div>
+                        </div>
+                    </div> 
+
+
+                    <!-- ! === 3 === -->
+                     <div class="portfolio__item">
+                        <div class="portfolio__img-box">
+                            <img src="images/portfolio/4.png" alt="portfolio-image" class="portfolio__img">
+                        </div>
+                        <div class="portfolio__data-box">
+                            <h3 class="portfolio__title">React Pizza - Website</h3>
+                            <p class="portfolio__text">A responsive web app for ordering pizza.Users can browse the menu, add items to the cart, place orders, and track their status. Styled with Tailwind CSS for a clean and modern UI.
+                            ✅ Also built an admin dashboard to manage and view incoming orders in real time.</p>
+                            <div class="portfolio__label-box">
+                                <img class="skills__img-skill" src="./images/skills/physics.png" alt="react">
+                                <img class="skills__img-skill" src="./images/skills/tailwindcss.png" alt="tailwindcss">
+                                <img class="skills__img-skill" src="./images/skills/supabase.png" alt="supabase">
+                                <img class="skills__img-skill" src="./images/skills/react-router.png" alt="react-router">
+                                <img class="skills__img-skill" src="./images/skills/tanstack.png" alt="tanstack">
+                            </div>
+                            <div class="portfolio__links">
+                                <a target="_blank" href="https://my-pizza-react.netlify.app/" class="portfolio__btn portfolio__link-live">Live Demo</a>
+                                <a target="_blank" href="https://github.com/artjom-webcode/pizza-website" class="portfolio__btn portfolio__link-github">GitHub</a>
+                            </div>
+                        </div>
+                    </div> 
+
+
+                     <!-- ! === 4 === -->
+                     <div class="portfolio__item">
+                        <div class="portfolio__img-box">
+                            <img src="images/portfolio/5.png" alt="portfolio-image" class="portfolio__img">
+
+                        </div>
+                        <div class="portfolio__data-box">
+                            <h3 class="portfolio__title">React Pizza - Dashboard</h3>
+                            <p class="portfolio__text">Pizza Admin Panel – a responsive admin dashboard for managing a pizzeria's menu and orders. Built with React, React Query, Supabase, and TailwindCSS. Features include order filtering, status updates, and dynamic menu editing.</p>
+                            <div class="portfolio__label-box">
+                                <img class="skills__img-skill" src="./images/skills/physics.png" alt="react">
+                                <img class="skills__img-skill" src="./images/skills/tailwindcss.png" alt="tailwindcss">
+                                <img class="skills__img-skill" src="./images/skills/supabase.png" alt="supabase">
+                                <img class="skills__img-skill" src="./images/skills/react-router.png" alt="react-router">
+                                <img class="skills__img-skill" src="./images/skills/tanstack.png" alt="react-query">
+                        
+                            </div>
+                            <div class="portfolio__links">
+                                <a target="_blank" href="https://pizza-dashboard.netlify.app" class="portfolio__btn portfolio__link-live">Live Demo</a>
+                                <a target="_blank" href="https://github.com/artjom-webcode/pizza-dashboard" class="portfolio__btn portfolio__link-github">GitHub</a>
+                            </div>
+                        </div>
+                    </div> 
+
+
+                 
+
+
+                </div>
+            </div>
+
+            </div>
+        </section>
+
+        <!--*=============== CONTACT ME ===============-->
+        <section class="contactme" id="contactme">
+            <div class="container">
+                <h2 class="section-title">Contact Me</h2>
+
+                <a href="mailto:artjom.webcode@gmail.com" class="contactme__email">
+                            <i class="ri-mail-line"></i>
+
+                    <!-- <ion-icon name="mail-outline"></ion-icon> -->
+                     <!-- <img class="contactme__email-icon" src="images/icons/mail-outline.svg" alt=""> -->
+
+                     <span>
+                         artjom.webcode@gmail.com
+                     </span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!--*=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <a href="#" class="nav__logo footer__logo">Artjom</a>
+                <ul class="footer__socials">
+                    <li class="footer__social"><a href="https://github.com/artjom-webcode"><i class="ri-github-fill"></i></a></li>
+                    <li class="footer__social"><a href="#"><i class="ri-linkedin-box-fill"></i></a></li>
+                    <!-- <li class="footer__social"><a href="https://github.com/artjom-webcode"><i class="ri-mail-line"></i></a></li> -->
+                </ul>
+
+            </div>
+        </div>
+    </footer>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
